@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>KALKULATOR</title>
+  </head>
+
+  <body class="container">
+
+    <div style="margin-top: 5%">
+      <center><h5>Kalkulator adam fs</h5></center>
+    </div>
+    <div style="margin-left:  40%" class="box">
+<div class="display"><input type="text" readonly size="18" id="d"></div>
+
+<div class="keys">
+    <p><input type="button" class="btn btn-default"
+
+    value="7" onclick='v("7")'><input type="button" class="btn btn-default"
+
+    class="button black" value="8" onclick='v("8")'>
+    <input type="button" value="9" class="btn btn-default"
+
+    onclick='v("9")'><input type="button" class="btn btn-warning"
+
+     value="*" onclick='v("*")'>
+    <input type="button" class="btn btn-warning" 
+
+    value="/" onclick='v("/")'>
+  </p>
+    <p><input type="button" class="btn btn-default"
+
+    value="4" onclick='v("4")'><input type="button" class="btn btn-default"
+
+     value="5" onclick='v("5")'>
+    <input type="button"  value="6" class="btn btn-default"
+
+    onclick='v("6")'><input type="button" class="btn btn-warning"
+
+     value="-" onclick='v("-")'></p>
+    <p><input type="button" class="btn btn-default" class="button black" 
+
+    value="1" onclick='v("1")'><input type="button" class="btn btn-default" 
+
+     value="2" onclick='v("2")'>
+    <input type="button" class="btn btn-default"  value="3" 
+
+    onclick='v("3")'><input type="button" class="btn btn-warning"
+
+     value="+" onclick='v("+")'></p>
+    <p><input type="button" class="btn btn-default"
+
+    value="0" onclick='v("0")'><input type="button" class="btn btn-default"
+
+    value="." onclick='v(".")'>
+    <input type="button" class="btn btn-default" value="C" 
+
+    onclick='c("")'><input type="button" 
+
+    class="btn btn-primary" value="=" onclick='e()'></p>
+</div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="kalku.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
